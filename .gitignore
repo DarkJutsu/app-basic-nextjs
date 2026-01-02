@@ -17,6 +17,10 @@
 
 # misc
 .DS_Store
+<<<<<<< HEAD
+=======
+*.pem
+>>>>>>> 9d69ae17197035d402c93b10a2a97da69459e83d
 
 # debug
 npm-debug.log*
@@ -24,7 +28,19 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
+<<<<<<< HEAD
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+=======
+.env*.local
+.env
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+>>>>>>> 9d69ae17197035d402c93b10a2a97da69459e83d
